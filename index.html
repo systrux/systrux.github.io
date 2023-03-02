@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>lorex's gallery</title>
+        <link rel="icon" href="media/icon.png" type="image/icon type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<!---->
+
+    <body>
+        <br><br><br><br><br><p>lorex's</p>
+        <br><br><br><br><br><br><br><br><br><h1>⮟</h1><br><br><br><br><br>
+            <div class="centergrid">
+                <center><img class="feed" src="media/hs2.jpg" alt="hskostel" width="500">
+                <img class="feed" src="media/f1.jpg" alt="food1" width="201">
+                <img class="feed" src="media/hs1.jpg" alt="hsjezero" width="500">
+                <img class="feed" src="media/hs3.jpg" alt="hsvodopad" width="320">
+                <img class="feed" src="media/hs4.jpg" alt="hsvodopad2" width="320">
+                <img class="feed" src="media/hs5.jpg" alt="hsvyhled" width="565">
+                <img class="feed" src="media/idk.jpg" alt="idkkostel" width="270">
+                <img class="feed" src="media/wien.jpg" alt="wienmodern" width="304">
+                <img class="feed" src="media/idk2.jpg" alt="churchidk" width="304">
+                <img class="feed" src="media/tun.jpg" alt="tunnel" width="304">
+                <img class="feed" src="media/kop.jpg" alt="kopecatak" width="286">
+                <img class="feed" src="media/chr.jpg" alt="chramviden" width="286">
+                <img class="feed" src="media/park.jpg" alt="parknebotak" width="286">
+                <img class="feed" src="media/cfe.jpg" alt="kaves" width="319"></center>
+            </div>
+        <button onclick="topFunction()" id="myBtn" title="">⮝</button>
+        <embed src="" loop="true" autostart="true" width="0" height="0">
+    </body>
+
+<!---->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+            background: linear-gradient(-90deg, #ffffff, #000000);
+            background-size: 850% 1%;
+        }
+
+        p {
+            font-family: "Gloock", sans-serif;
+            color:rgb(255, 255, 255);
+            font-size: 150px;
+            text-align: center;
+            letter-spacing: -10px;
+            text-shadow: 50px 105px 0px rgb(69, 69, 69);
+        }
+
+        h1 {
+            font-family: "Gloock", sans-serif;
+            color:rgb(255, 255, 255);
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: -10px;
+        }
+        
+        .centergrid {
+            padding: 220px;
+        }
+
+        .feed {
+            padding: 10px;
+            border-radius: 35px;
+        }
+ 
+        ::-webkit-scrollbar {
+        width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+        background: #1a1a1a;
+        }
+        ::-webkit-scrollbar-thumb {
+        background: #1a1a1a;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+        background: #1a1a1a;
+        }
+
+        #myBtn {
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed/sticky position */
+            bottom: 25px; /* Place the button at the bottom of the page */
+            right: 25px; /* Place the button 30px from the right */
+            z-index: 99; /* Make sure it does not overlap */
+            border: none; /* Remove borders */
+            outline: none; /* Remove outline */
+            background-color: rgba(255, 255, 255, 0.047); /* Set a background color */
+            color: rgba(255, 255, 255, 0.457); /* Text color */
+            cursor: pointer; /* Add a mouse pointer on hover */
+            padding: px; /* Some padding */
+            border-radius: 8px; /* Rounded corners */
+            font-size: 20px; /* Increase font size */
+        }
+
+        #myBtn:hover {
+            background-color: #ffffff14; /* Add a dark-grey background on hover */
+        }
+        
+    </style>
+
+<!---->
+
+    <script>
+    //go top button
+    let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+
+<!--made by systrux-->>
+
+</html>
